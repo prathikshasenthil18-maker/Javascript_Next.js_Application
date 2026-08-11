@@ -1,0 +1,14 @@
+tool: stryker-js
+language: javascript
+language_version: "22.0.0"
+customer_version: "22"
+project_type: "Next.js Application"
+scenario: "1 - Monolithic"
+technique: "Mutation Testing"
+classification: "Mutation Score"
+platform_tool_name: "stryker-js"
+project_link: true
+run:
+  command: "bash tools/stryker-js/run.sh"
+  npm_script: "stryker"
+  cwd: "repository_root"

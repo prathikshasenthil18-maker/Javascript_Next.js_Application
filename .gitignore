@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+coverage/
+.nyc_output/
+reports/
+*.log
+.DS_Store
+_generate_nextjs.py
+__pycache__/
