@@ -1,0 +1,15 @@
+{
+  "tool": "mocha",
+  "platform_tool_name": "nyc-mocha",
+  "customer_version": "18",
+  "linked_project": "Next.js Application (monolith root)",
+  "npm_script": "test",
+  "project_targets": [
+    "lib/**/*.js",
+    "test/**/*.spec.js"
+  ],
+  "config_files": [
+    ".mocharc.json"
+  ],
+  "run_from": "repository root"
+}

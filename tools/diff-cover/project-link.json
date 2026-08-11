@@ -1,0 +1,15 @@
+{
+  "tool": "diff-cover",
+  "platform_tool_name": "coverage_delta",
+  "customer_version": "18",
+  "linked_project": "Next.js Application (monolith root)",
+  "npm_script": "diff-cover",
+  "project_targets": [
+    "lib/**/*.js",
+    "coverage/lcov.info"
+  ],
+  "config_files": [
+    ".nycrc.json"
+  ],
+  "run_from": "repository root"
+}

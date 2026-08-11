@@ -1,0 +1,15 @@
+{
+  "tool": "eslint-plugin-security",
+  "platform_tool_name": "eslint-security",
+  "customer_version": "18",
+  "linked_project": "Next.js Application (monolith root)",
+  "npm_script": "lint:security",
+  "project_targets": [
+    "lib/**/*.js",
+    "tool-fixtures/sastFixture.js"
+  ],
+  "config_files": [
+    ".eslintrc.security.cjs"
+  ],
+  "run_from": "repository root"
+}
