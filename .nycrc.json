@@ -1,0 +1,6 @@
+{
+  "reporter": ["text", "lcov", "json-summary"],
+  "all": true,
+  "include": ["lib/**/*.js"],
+  "exclude": ["test/**", "tool-fixtures/**", "pages/**"]
+}
